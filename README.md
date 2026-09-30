@@ -29,4 +29,4 @@ Report 1 uses simulated logs. Report 2 was performed on a personal workstation, 
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) | Lagos, Nigeria
+[LinkedIn](https://www.linkedin.com/in/johnbassey) | Lagos, Nigeria
