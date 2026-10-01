@@ -63,7 +63,7 @@ Review of the SSH authentication logs found repeated failed logins from two exte
 3. Continue monitoring `root` and `admin` for further brute-force attempts.
 4. Verify the `john` logins: confirm the GeoIP location matches expected use, and review session activity after login.
 5. Hardening to consider: disable direct root login over SSH, enforce key-based authentication, and rate-limit SSH connections.
-6. 6. Add a threshold-based detection rule: alert when 5 or more failed SSH logins come from one source IP within 5 minutes (for example, fail2ban `maxretry = 5`, `findtime = 5m`), then tune the values against normal login activity to reduce false positives. In this dataset, detection relied on timing and username rotation rather than a failure count.
+6. Add a threshold-based detection rule: alert when 5 or more failed SSH logins come from one source IP within 5 minutes (for example, fail2ban `maxretry = 5`, `findtime = 5m`), then tune the values against normal login activity to reduce false positives. In this dataset, detection relied on timing and username rotation rather than a failure count.
 
 ## 6. Limitations
 
